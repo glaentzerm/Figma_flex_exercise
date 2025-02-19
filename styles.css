@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    height: 100vh;  
+    background-color: #2D4480; 
+    font-family: "Noto Sans Symbols", sans-serif;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 288px;
+    height: 469px;
+    padding: 20px;
+    border-radius: 27px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.card h2{
+font-size: 36px;
+font-weight: 700;
+
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    justify-content: start;
+    margin: 8px 0;
+}
+
+.card p img {
+    width: 20px;
+    height: 20px;
+    letter-spacing: 13%;
+}
+
+.feature{
+    text-align: center;
+    padding-left: 50px;
+}
+
+hr {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid #000000;
+}
+
+.second-container{
+    position: rela;
+    right: 49%;
+}
+
+span{
+    position: absolute;
+    margin-top: 50px;
+    font-weight: 400;
+    font-family: "Allan", serif;
+    color: #2D4480;
+    font-size: 36px;
+    
+    Left: 708px;
+}
+
+.main-container > div:last-child {
+    background-color: #FFD700; 
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 77%;
+    left: 45%;
+}
